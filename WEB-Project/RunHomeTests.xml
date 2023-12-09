@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Tests" >
+        <classes>
+            <class name="HomeTests" >
+                <methods>
+                    <include name="DoCourseEvaluationWithInvalidRate"></include>
+                    <include name="DoCourseEvaluationWithValidRate"></include>
+                    <include name="Grades"></include>
+                    <include name="MySchedule"></include>
+                    <include name="Evaluatios"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
